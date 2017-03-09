@@ -31,6 +31,12 @@ public class Main6Activity extends AppCompatActivity {
                 if(e1.getText().toString().equals("")||e2.getText().toString().equals("")||
                         e1.getText().toString().equals(null)||e2.getText().toString().equals(null)){
                     Toast.makeText(Main6Activity.this, "값을 입력하세요", Toast.LENGTH_SHORT).show();
+                    if(e1.getText().toString().equals("")||e1.getText().toString().equals(null)){
+                        e1.requestFocus();
+                    }
+                    else{
+                        e2.requestFocus();
+                    }
                 }
                 else{
                     String fint = e1.getText().toString();
@@ -48,6 +54,12 @@ public class Main6Activity extends AppCompatActivity {
                 if(e1.getText().toString().equals("")||e2.getText().toString().equals("")||
                         e1.getText().toString().equals(null)||e2.getText().toString().equals(null)){
                     Toast.makeText(Main6Activity.this, "값을 입력하세요", Toast.LENGTH_SHORT).show();
+                    if(e1.getText().toString().equals("")||e1.getText().toString().equals(null)){
+                        e1.requestFocus();
+                    }
+                    else{
+                        e2.requestFocus();
+                    }
                 }
                 else{
                     String fint = e1.getText().toString();
@@ -65,6 +77,12 @@ public class Main6Activity extends AppCompatActivity {
                 if(e1.getText().toString().equals("")||e2.getText().toString().equals("")||
                         e1.getText().toString().equals(null)||e2.getText().toString().equals(null)){
                     Toast.makeText(Main6Activity.this, "값을 입력하세요", Toast.LENGTH_SHORT).show();
+                    if(e1.getText().toString().equals("")||e1.getText().toString().equals(null)){
+                        e1.requestFocus();
+                    }
+                    else{
+                        e2.requestFocus();
+                    }
                 }
                 else{
                     String fint = e1.getText().toString();
@@ -82,6 +100,12 @@ public class Main6Activity extends AppCompatActivity {
                 if(e1.getText().toString().equals("")||e2.getText().toString().equals("")||
                         e1.getText().toString().equals(null)||e2.getText().toString().equals(null)){
                     Toast.makeText(Main6Activity.this, "값을 입력하세요", Toast.LENGTH_SHORT).show();
+                    if(e1.getText().toString().equals("")||e1.getText().toString().equals(null)){
+                        e1.requestFocus();
+                    }
+                    else{
+                        e2.requestFocus();
+                    }
                 }
                 else{
                     String fint = e1.getText().toString();
