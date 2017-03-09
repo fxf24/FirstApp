@@ -5,38 +5,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.qudqj_000.myapplication.MainActivity">
+    tools:context="com.example.qudqj_000.myapplication.Main3Activity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="나의 첫번째 App"
-        />
-
+        android:text="태어난 년도를 입력하세요."/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="숫자를 입력하세요."
+        android:id="@+id/birthYear"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="사과가격 계산"
-        android:id="@+id/Button1"/>
+        android:text="나이계산"
+        android:id="@+id/ageCalc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나이를 입력하세요"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="숫자를 입력하세요."
+        android:id="@+id/age"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="나이 계산"
-        android:id="@+id/Button2"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:id="@+id/Button3"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:id="@+id/Button4"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:id="@+id/Button5"/>
+        android:text="태어난 해 계산"
+        android:id="@+id/yearCalc"/>
 
 </LinearLayout>
