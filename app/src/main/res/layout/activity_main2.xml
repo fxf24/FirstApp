@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qudqj_000.myapplication.Main2Activity">
+
+    <TextView
+        android:text="사과의 가격은?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="숫자로 입력"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/applePrice"/>
+    <TextView
+        android:text="사과의 개수는?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="숫자로 입력"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appleNum"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="총 금액 계산하기"
+        android:id="@+id/priceCal"/>
+</LinearLayout>
