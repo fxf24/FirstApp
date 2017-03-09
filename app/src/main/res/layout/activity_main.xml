@@ -26,17 +26,17 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="온도변환기"
         android:id="@+id/Button3"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="레스토랑 메뉴주문"
         android:id="@+id/Button4"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="계산기"
         android:id="@+id/Button5"/>
 
 </LinearLayout>
